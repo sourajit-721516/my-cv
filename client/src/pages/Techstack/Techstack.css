@@ -1,0 +1,34 @@
+.heading h1{
+  color: #112A46;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+
+
+.tstack{
+  border:  solid;
+  border-radius: 10px;
+  padding: 20px 0px;
+  margin: 10px 0px;
+  margin-left: 130px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 10px;
+}
+
+@media (max-width: 600px) {
+  .tstack {
+    padding: 0;
+    margin: 0;
+   
+  }
+
+
+  .heading h1{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  /* .techstack hr {
+    width: 280px;
+  } */
+}

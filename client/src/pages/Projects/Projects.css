@@ -1,0 +1,228 @@
+.project {
+  margin: 50px 0px;
+  margin-left: 140px;
+}
+
+.project hr {
+  color: #06101c;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.project h2 {
+  font-weight: bold;
+  color: #06101c;
+}
+
+#ads {
+  margin: 30px 0px 30px 0px;
+}
+
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background: #f29f67;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.project .card img {
+  height: 150px;
+  width: 100%;
+}
+
+.card-detail-badge {
+  background-color: #e0b50f;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.card-image-overly {
+  font-size: 20px;
+}
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.project .card:hover {
+  background-color: #ACC8E5;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  transition: all 1s ease;
+}
+
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #06101c;
+  color: #ACC8E5;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.ad-btn:hover {
+  background-color: white;
+  color: #06101c;
+  background: transparent;
+  border: 2px solid #06101c;
+  transition: all 0.5s ease;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+
+
+/* =================================== */
+
+
+.swiper_container {
+  /* height: 52rem;
+  padding: 2rem 0;
+  position: relative; */
+
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.swiper-slide {
+  /* width: 80%;
+  height: 42rem;
+  position: relative; */
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* @media (max-width: 500px) {
+  .swiper_container {
+    height: 47rem;
+  }
+  .swiper-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .swiper-slide img {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+}
+
+.swiper-slide img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.slider-controler {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-controler .swiper-button-next {
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+@media (max-width: 990px) {
+  .slider-controler .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider-controler .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .slider-controler .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider-controler .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+.slider-controler .slider-arrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.slider-controler .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #222224;
+}
+
+.slider-controler .slider-arrow::after {
+  content: '';
+}
+
+.swiper-pagination {
+  position: relative;
+  width: 15rem !important;
+  bottom: 1rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
+
+
+ */
+
+/* =============================== */
+@media (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .project hr {
+    width: 280px;
+  }
+  .project .card {
+    margin-top: 30px;
+  }
+}

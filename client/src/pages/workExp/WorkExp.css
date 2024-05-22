@@ -1,0 +1,64 @@
+.work {
+  background-color:#06101c;
+  margin-left: 130px;
+  
+ 
+}
+
+.work-exp {
+ max-height: 680px;
+  
+}
+
+.pic img {
+border-radius: 10px;
+ padding:25px 25px 25px 25px;
+ height: 660px;
+ width: 60%;
+}
+
+.head hr {
+  color:#06101c;
+  width: 400px;
+  margin: 10px auto;
+  
+}
+
+.head h2 {
+  color: #06101c;
+  
+}
+
+
+/* ===== DARK MODE ========== */
+#dark .work {
+  background-color:#06101c;
+}
+
+#dark .work h2 {
+  color: white;
+}
+
+/* =================== */
+
+@media (max-width: 600px) {
+  .work {
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  .head{
+    margin-top: 50px;
+  }
+  .head hr {
+    width: 280px;
+  }
+
+  .pic img {
+    border-radius: 10px;
+    width: 350px;
+    height: 340px;
+  padding: 20px 25px 25px 25px;
+  }
+}

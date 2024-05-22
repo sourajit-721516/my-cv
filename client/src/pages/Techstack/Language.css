@@ -1,0 +1,50 @@
+.Language {
+    /* padding-left: 130px;
+    margin-top: 60px; */
+
+    margin-top: 0;
+  }
+  .Language hr {
+    color: #112A46;
+    /* width: 400px; */
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .Language h2 {
+    font-weight: bold;
+    color: #112A46;
+  }
+  
+  .Language .card {
+    cursor: pointer;
+  }
+  
+  .Language .lang-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .Language .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #ACC8E5;
+    color: #112A46;
+  
+    transition: 1s;
+  }
+  
+  /* =============================== */
+  @media (max-width: 600px) {
+    .Language {
+      padding: 0;
+      margin: 0;
+      margin-top: 50px;
+    }
+  
+    .Language hr {
+      width: 100%;
+    }
+  }
+  
